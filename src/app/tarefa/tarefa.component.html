@@ -1,0 +1,16 @@
+<ul type="none" class="list-group list-group-flush ">
+    <li *ngFor="let item of itemTarefa; let i = index" class="list-group-item wrapper">
+
+        <div>
+            <input class="form-check-input me-1" type="checkbox" value="">
+            
+            {{item}}
+        </div>
+
+    <button 
+        (click)="enviaEventoButao(i)"
+        type="button"
+        class="btn btn-danger"
+        > - </button>
+    </li>
+</ul>

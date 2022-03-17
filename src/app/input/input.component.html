@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <input 
+        type="text" 
+        name="tarefa"
+        id="tarefa"
+        #textoTarefa
+        (keyup.enter)="enviaEvento(textoTarefa.value)"
+        (keyup.enter)="textoTarefa.value = ''"
+        >
+        <button 
+        type="button" 
+        class="btn btn-primary"
+        (click)="enviaEvento(textoTarefa.value)"
+        (click)="textoTarefa.value = ''"
+        >
+    +</button>
+</div>
+

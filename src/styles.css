@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+html, body { 
+    height: 100%; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(rgb(100, 220, 208),rgb(98, 215, 209), rgb(90, 188, 215),rgb(86, 169, 219),rgb(79, 146, 225));
+    background-attachment: fixed;
+}

@@ -1,0 +1,24 @@
+.card{
+    max-width: 40vw;
+    max-height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: white;
+    gap: 10px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin: 0 0 25px 15px;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}

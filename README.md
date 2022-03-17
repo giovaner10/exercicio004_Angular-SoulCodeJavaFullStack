@@ -1,4 +1,7 @@
-# ToDoList
+# Exer004 - Angular toDo List - SoulCode Java FullStack
+<br>
+
+![exemplo em gif](./src/assets/img/exem.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
